@@ -1,0 +1,22 @@
+.MuiContainer-root.header-container {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MuiButton-root.header-button {
+  color: #505256;
+  text-transform: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  line-height: 24px;
+  background: #f1f2f4;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.MuiButton-root.header-button:hover {
+  background: #e1e4e8;
+}
