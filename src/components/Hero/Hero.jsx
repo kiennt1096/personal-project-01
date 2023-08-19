@@ -288,6 +288,9 @@ const Hero = () => {
                 "0 0 1px 0 rgba(8, 11, 14, 0.06), 0 16px 16px -1px rgba(8, 11, 14, 0.1)",
               borderRadius: "12px",
               padding: "32px 24px",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
             }}
           >
             <Typography
@@ -304,7 +307,16 @@ const Hero = () => {
               color="#A7AAB0"
               marginBottom="64px"
             >
-              Don't have an account yet? Create New
+              Don't have an account yet?{" "}
+              <Typography
+                fontSize="12px"
+                fontWeight="500"
+                color="#0284FE"
+                display="inline-block"
+                sx={{ cursor: "pointer" }}
+              >
+                Create New
+              </Typography>
             </Typography>
             <CustomInput
               placeHolder="hello@gmail.com"
