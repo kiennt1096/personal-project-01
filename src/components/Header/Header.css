@@ -3,12 +3,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 88px;
 }
 
 .MuiButton-root.header-button {
   color: #505256;
   text-transform: none;
-  padding: 10px 16px;
+  padding: 8px 16px;
   font-size: 14px;
   line-height: 24px;
   background: #f1f2f4;

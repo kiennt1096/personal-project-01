@@ -3,6 +3,7 @@ import React from "react";
 import Logo from "../../assets/logo.svg";
 import "./Header.css";
 import HeaderLink from "../public/HeaderLink";
+import CustomButton from "../public/CustomButton";
 
 const Header = () => {
   return (
@@ -14,9 +15,7 @@ const Header = () => {
         <HeaderLink title="Features" link="#" />
         <HeaderLink title="Github" link="#" />
         <HeaderLink title="For Designers" link="#" />
-        <Link className="header-link">
-          <Button className="header-button">Documentation</Button>
-        </Link>
+        <CustomButton title="Documentation" link="#" />
       </Box>
     </Container>
   );
