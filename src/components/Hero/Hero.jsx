@@ -33,16 +33,10 @@ const Hero = () => {
         borderBottom: "1px solid #F1F2F4",
       }}
     >
-      <Typography
-        fontFamily={"Poppins"}
-        fontSize={"48px"}
-        fontWeight="500"
-        marginBottom="16px"
-      >
+      <Typography fontSize={"48px"} fontWeight="500" marginBottom="16px">
         Design System for React JS
       </Typography>
       <Typography
-        fontFamily={"Poppins"}
         fontSize={"17px"}
         fontWeight="300"
         lineHeight="30px"
@@ -144,11 +138,10 @@ const Hero = () => {
                   marginBottom: "16px",
                 }}
               />
-              <Typography fontFamily="Poppins" fontSize="22px" fontWeight="500">
+              <Typography fontSize="22px" fontWeight="500">
                 Meagan Fisher
               </Typography>
               <Typography
-                fontFamily="Poppins"
                 fontSize="12px"
                 fontWeight="500"
                 marginBottom="40px"
@@ -225,12 +218,7 @@ const Hero = () => {
                       marginRight: "16px",
                     }}
                   />
-                  <Typography
-                    fontFamily="Poppins"
-                    fontSize="14px"
-                    fontWeight="500"
-                    color="#000"
-                  >
+                  <Typography fontSize="14px" fontWeight="500" color="#000">
                     Meagan Fisher
                   </Typography>
                 </Box>
@@ -269,20 +257,10 @@ const Hero = () => {
                   }}
                 />
                 <Box>
-                  <Typography
-                    fontFamily="Poppins"
-                    fontSize="14px"
-                    fontWeight="500"
-                    color="#000"
-                  >
+                  <Typography fontSize="14px" fontWeight="500" color="#000">
                     John Doe
                   </Typography>
-                  <Typography
-                    fontFamily="Poppins"
-                    fontSize="12px"
-                    fontWeight="400"
-                    color="#A7AAB0"
-                  >
+                  <Typography fontSize="12px" fontWeight="400" color="#A7AAB0">
                     UI/UX Designer
                   </Typography>
                 </Box>
@@ -313,7 +291,6 @@ const Hero = () => {
             }}
           >
             <Typography
-              fontFamily="Poppins"
               fontSize="20px"
               fontWeight="500"
               color="#000"
@@ -322,7 +299,6 @@ const Hero = () => {
               Login into your account
             </Typography>
             <Typography
-              fontFamily="Poppins"
               fontSize="12px"
               fontWeight="400"
               color="#A7AAB0"
@@ -340,7 +316,6 @@ const Hero = () => {
             />
             <Button
               sx={{
-                fontFamily: "Poppins",
                 width: "100%",
                 textTransform: "none",
                 background: "#EEF7FF",
