@@ -12,6 +12,9 @@ const CustomButton = ({
   borderHoverColor,
   icon,
   marginRight,
+  position,
+  bottom,
+  right,
 }) => {
   return (
     <Link
@@ -22,6 +25,9 @@ const CustomButton = ({
         color: "#505256",
         fontWeight: "500",
         marginRight: marginRight ? marginRight : "32px",
+        position: position ? position : null,
+        bottom: bottom ? bottom : null,
+        right: right ? right : null,
         ":last-child": {
           marginRight: "0px",
         },
