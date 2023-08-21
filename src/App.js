@@ -4,6 +4,8 @@ import Hero from "./components/Hero/Hero";
 import Features from "./components/Features/Features";
 import { ThemeProvider, createTheme } from "@mui/material";
 import Functions from "./components/Functions/Functions";
+import ExCode from "./components/ExCode/ExCode";
+import DesDev from "./components/DesDev/DesDev";
 
 const THEME = createTheme({
   typography: {
@@ -19,6 +21,8 @@ function App() {
         <Hero />
         <Features />
         <Functions />
+        <ExCode />
+        <DesDev />
       </div>
     </ThemeProvider>
   );
