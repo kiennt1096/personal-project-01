@@ -10,6 +10,8 @@ const RadiusButton = ({
   hoverColor,
   borderHoverColor,
   icon,
+  width,
+  padding,
 }) => {
   return (
     <Link
@@ -19,7 +21,7 @@ const RadiusButton = ({
         fontSize: "14px",
         color: "#505256",
         fontWeight: "500",
-        width: "123px",
+        width: width ? width : "123px",
         marginRight: "16px",
         ":last-child": {
           marginRight: "0px",
@@ -30,7 +32,7 @@ const RadiusButton = ({
         sx={{
           color: textColor ? textColor : "#505256",
           textTransform: "none",
-          padding: "8px 16px",
+          padding: padding ? padding : "8px 16px",
           fontSize: "14px",
           lineHeight: "24px",
           background: backgroundColor ? backgroundColor : "#f1f2f4",

@@ -3,6 +3,9 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import { Light as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import DesDevCard from "../public/DesDevCard";
+import DiamondIcon from "../../assets/desdev1.svg";
+import ReactLogo from "../../assets/reactlogo.svg";
 
 const ExCode = () => {
   const codeString = `

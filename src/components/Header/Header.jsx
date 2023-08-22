@@ -7,7 +7,7 @@ import CustomButton from "../public/CustomButton";
 
 const Header = () => {
   return (
-    <Container className="header-container">
+    <Container className="header-container fixed">
       <Box>
         <img src={Logo} alt="logo" height={18} />
       </Box>

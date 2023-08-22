@@ -5,7 +5,12 @@
   align-items: center;
   margin-bottom: 88px;
 }
-
+.MuiContainer-root.fixed {
+  position: sticky;
+  z-index: 9999999;
+  top: 0;
+  background: #fff;
+}
 .MuiButton-root.header-button {
   color: #505256;
   text-transform: none;

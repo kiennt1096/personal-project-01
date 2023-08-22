@@ -2,10 +2,11 @@ import Header from "./components/Header/Header";
 import "./App.css";
 import Hero from "./components/Hero/Hero";
 import Features from "./components/Features/Features";
-import { ThemeProvider, createTheme } from "@mui/material";
+import { Box, ThemeProvider, createTheme } from "@mui/material";
 import Functions from "./components/Functions/Functions";
 import ExCode from "./components/ExCode/ExCode";
 import DesDev from "./components/DesDev/DesDev";
+import Footer from "./components/Footer/Footer";
 
 const THEME = createTheme({
   typography: {
@@ -16,14 +17,17 @@ const THEME = createTheme({
 function App() {
   return (
     <ThemeProvider theme={THEME}>
-      <div className="content">
-        <Header />
-        <Hero />
-        <Features />
-        <Functions />
-        <ExCode />
-        <DesDev />
-      </div>
+      <Box sx={{ display: "flex", alignItems: "center" }}>
+        <Box className="content">
+          <Header />
+          <Hero />
+          <Features />
+          <Functions />
+          <ExCode />
+          <DesDev />
+          <Footer />
+        </Box>
+      </Box>
     </ThemeProvider>
   );
 }

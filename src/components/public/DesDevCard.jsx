@@ -12,6 +12,7 @@ const DesDevCard = ({ icon, title, subtitle, link }) => {
         borderRadius: "12px",
         border: "1px solid #F7F8F9",
         maxWidth: "28.33%",
+        background: "#fff",
       }}
     >
       <img src={icon} alt="icon" style={{ marginBottom: "1rem" }} />
